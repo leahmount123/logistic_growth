@@ -9,19 +9,9 @@ ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
-  xlab("t") +
+  xlab("Time") +
   
-  ylab("y") +
-  
-  theme_bw()
-
-ggplot(aes(t,N), data = growth_data) +
-  
-  geom_point() +
-  
-  xlab("t") +
-  
-  ylab("y") +
+  ylab("Number of cells (log)") +
   
   scale_y_continuous(trans='log10')
 

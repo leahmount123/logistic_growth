@@ -10,18 +10,22 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- exp(6.883e+00) 
+N0 <- exp(6.8941709) 
   
-r <- 1.004e-02
+r <- 0.0100086
   
-K <- 6.00e+10
+K <- 6.000e+10
 
 ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
+  xlab("Time") +
+  
+  ylab("Number of cells (log)") +
+  
   geom_point()
 
-  #scale_y_continuous(trans='log10')
+  scale_y_continuous(trans='log10')
 
 
