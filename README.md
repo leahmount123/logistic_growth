@@ -1,3 +1,5 @@
+### Question 1
+
 I used the "experiment.csv" file, which I downloaded from OSF.
 
 **N0 = exp(6.8941709) = ~987**
