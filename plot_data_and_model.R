@@ -20,9 +20,9 @@ ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
-  xlab("Time") +
+  xlab("Time (minutes)") +
   
-  ylab("Number of cells (log)") +
+  ylab("Population size (# of cells)") +
   
   geom_point()
 
