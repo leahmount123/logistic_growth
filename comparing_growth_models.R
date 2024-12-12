@@ -44,13 +44,6 @@ ggplot(aes(t,N), data = growth_data) +
   
   geom_line() +
 
-  scale_y_continuous(trans='log10') +
+  scale_y_continuous(trans='log10') 
   
-  legend(x = 50, y = 1e+20, legend=c("Logistic Model", "Exponential Model"),
-       col=c("black", "cyan"))
-  
-  ### ERROR: the legend is not adding to the graph. I think its likely
-  ### because it does not know where to put the legend.
-  legend(x = "topleft", box.lwd = 2 , title="MODELS",  
-         legend=c("Logistic", "Exponential"),  
-         fill = c("black","cyan")) 
+
