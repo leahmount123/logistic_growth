@@ -45,4 +45,4 @@ This is clearly a much smaller population size than predicted with the exponenti
 
 ![image](https://github.com/user-attachments/assets/c3c4b43d-6dae-4fdd-ad89-df2cf4475e97)
 
-This is a log-scaled (on the y axis) graph, comparing the logistic model (black) and the exponential model (blue). It needs to be log-scaled, or else there would be n way of seeing the extent of the exponetial growth on the same graph as the logistic model.
+This is a log-scaled (on the y axis) graph, comparing the logistic model (black) and the exponential model (blue). It needs to be log-scaled, or else there would be no way of seeing the extent of the exponential growth on the same graph as the logistic model.
